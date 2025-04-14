@@ -20,8 +20,6 @@ public class PrototypeResource {
         boat.setMaxSpeedInKM(30);
 
         Vehicle clonedBoat = boat.clone();
-        System.out.println(clonedBoat);
-        System.out.println(boat);
         return clonedBoat;
     }
 }
